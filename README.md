@@ -1,1 +1,3 @@
 # permutations
+
+A permutation excercise
