@@ -8,6 +8,16 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * Decode a string of numbers usinf a mapping 0=A, 1=B, 2=C ... Z=25
+ * Assume numeric strings are entered in std input
+ * 
+ * The String 12 could be decoded as BC(1 2) or M(12) therefore has 2 permutations
+ * The String 123 could be decoded as BCE(1 2 3) or BX(1 23) or ME(12 3) therefore has 3 permutations
+ * 
+ * @author Neil
+ */
+
 public class Permutations {
 
 	private static HashMap<String, Character> key;
